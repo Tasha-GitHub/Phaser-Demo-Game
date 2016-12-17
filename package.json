@@ -1,0 +1,23 @@
+{
+  "name": "phaser-demo-game",
+  "version": "1.0.0",
+  "description": "My first phaser game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tasha-GitHub/Phaser-Demo-Game.git"
+  },
+  "keywords": [
+    "phaser.io"
+  ],
+  "author": "Tasha Casagni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tasha-GitHub/Phaser-Demo-Game/issues"
+  },
+  "homepage": "https://github.com/Tasha-GitHub/Phaser-Demo-Game#readme"
+}
