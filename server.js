@@ -28,7 +28,13 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(__dirname + "/app/public"));
+// ================================================================================
+// ROUTER
+// The below points our server to a series of "route" files.
+// These routes give our server a "map" of how to respond when users visit or request data from various URLs.
+// ================================================================================
 
+require("./app/routing/html-routes.js")(app);
 // ==============================================================================
 // LISTENER
 // The below code effectively "starts" our server
